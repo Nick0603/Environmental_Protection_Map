@@ -32,9 +32,15 @@ html, body {
 
 .table{
     border: solid 0.1em #333;
+    table-layout: fixed;
+    word-break: break-all;
 }
 
 .info-tbody tr{ cursor: pointer; }
 .info-form{
     padding:0.2em;
+}
+
+.info-tbody button{
+    margin-left:0.5em;
 }
